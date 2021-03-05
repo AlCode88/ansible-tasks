@@ -7,8 +7,4 @@ all:
         centos:
           ansible_host: 
         ubuntu:
-<<<<<<< HEAD
           ansible_host: 
-=======
-          ansible_host: 
->>>>>>> 1a3d584d43a0db0d505319d6f3c0e3e932d1f2a4
