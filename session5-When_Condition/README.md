@@ -8,9 +8,6 @@ Session 6 Tasks
 4) Create a new file on remote servers on CentOS - newfile.txt and on Ubuntu textfile.txt under /tmp
 in the same playbook
 
+5) Write a playbook that creates a file with content in remote servers on CentOS newfile.txt and Ubuntu textfile.txt with the content = "Hello from Ansible"
 
-
-
-
-3) Write a playbook that creates a file with content in remote servers. 
-- file name = ansible file, file location = /tmp, content = "Hello from Ansible"
+6) Creating Multiple Files in the remote Servers with when conditions 3 textfile.txt on CentOS and 5 newfile.txt on Ubuntu
