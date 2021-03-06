@@ -1,9 +1,9 @@
 ---
-  - name: Create a multiple files files on Remote Servers
+  - name: Remove all files on CentOS
     hosts: prod
     tasks:
       
-      - name: create a multiple files text{0-3}.txt on CentOS
+      - name: remove all files on centos text{0-3}.txt on CentOS
         when:
          - ansible_facts ['distribution'] == "CentOS" 
         file: 
@@ -16,7 +16,7 @@
         - text2.txt
         - text3.txt
       
-      - name: create a multiple files on Ubuntu
+      - name: remove all files  on Ubuntu
         when:
          - ansible_facts ['distribution'] == "Ubuntu" 
         file: 
