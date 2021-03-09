@@ -1,15 +1,15 @@
 <b>Session Tasks<b>
 
-<b>Tasks 1:<b>
+Tasks 1:
 On Debug playbook add one or more variables called "variables2" with value "This is value 2" call both variables with debug.
 
-<b>Task 2:<b>
+Task 2:
 Write a Playbook that prints distribution and major version of all managed servers call the playbook - gather_facts.yaml
 
-<b>Task 3:<b>
+Task 3:
 Install htop, curl and vim on all servers playbook name packages.yaml
 
-<b>Task 4:<b>
+Task 4:
 Install and start apache on all servers playbook name apache.yaml
 
 
