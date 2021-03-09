@@ -5,7 +5,7 @@
     tasks:
       - name: Ping the host
         ping:
-      
+# Installing apache on CentOS with "when" and "register"
       - name: Install httpd on CentOS
         when:
         - ansible_facts['distribution'] == "CentOS"
@@ -13,7 +13,7 @@
           name: httpd
           state: present
         register: Task1
-      
+# Starting Apache using systemd on cenos with "when"
       - name: Make sure a service is running
         when:
         - ansible_facts ['distribution'] == "CentOS"
@@ -22,7 +22,7 @@
           name: httpd
           state: started
           enabled: yes
-
+# Installing apache on Ubunut with "when" and "register"
       - name: Install httpd on Ubuntu
         when:
         - ansible_facts['distribution'] == "Ubuntu"
@@ -30,7 +30,7 @@
           name: apache2
           state: present
         register: Task2   
-
+# Starting Apache using systemd on cenos with "when"
       - name: Make sure a service is running
         when:
         - ansible_facts ['distribution'] == "Ubuntu"
