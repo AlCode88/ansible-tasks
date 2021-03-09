@@ -1,4 +1,4 @@
-<b>Session Tasks<b>
+Session Tasks
 
 Tasks 1:
 On Debug playbook add one or more variables called "variables2" with value "This is value 2" call both variables with debug.
@@ -14,7 +14,7 @@ Install and start apache on all servers playbook name apache.yaml
 
 
 
-<b>Session Notes:<b>
+<b>Session Notes:</b>
 
 Ansible collects pretty much all the information about the remote hosts as it runs a playbook. The task of collecting this remote system information is called as Gathering Facts by ansible and the details collected are generally known as facts or variables.
 
