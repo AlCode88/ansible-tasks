@@ -18,7 +18,7 @@ Install and start apache on all servers playbook name apache.yaml
 
 Ansible collects pretty much all the information about the remote hosts as it runs a playbook. The task of collecting this remote system information is called as Gathering Facts by ansible and the details collected are generally known as facts or variables.
 
- <b> ansible -i iventory.yaml ubuntu setup | less - command </b>  will show you page by page all the information about remote servers
+ <b><u> ansible -i iventory.yaml ubuntu setup | less - command </b> </u> will show you page by page all the information about remote servers
 
 <b>DEBUG:</b> module that prints the statement during the execution. 
 
