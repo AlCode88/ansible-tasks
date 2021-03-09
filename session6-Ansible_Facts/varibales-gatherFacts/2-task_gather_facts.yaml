@@ -1,5 +1,6 @@
 ---
-- hosts: all
+- name: Get the major version and distribution on all remoter servers
+  hosts: all
   gather_facts: yes
   tasks:
   - name: Distribution
