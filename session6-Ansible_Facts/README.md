@@ -1,4 +1,4 @@
-Session Tasks
+<b>Session Tasks</b>
 
 Tasks 1:
 On Debug playbook add one or more variables called "variables2" with value "This is value 2" call both variables with debug.
