@@ -10,6 +10,13 @@ there is a defult varibales that ansible stores in the memory. For example "grou
 
 <u>WATER FALL APPROACH:</u> large chuncks of codes run not often once in a while.
 
+<u>Upstream jobs</u> - 
+
+<u>Upstream jobs</u> -
+
+FETCH - This module works like copy, but in reverse. It is used for fetching files from remote machines and storing them locally in a file tree, organized by hostname. Files that already exist at dest will be overwritten if they are different than the src. This module is also supported for Windows targets.
+
+
 
 <h1><b>Session Tasks</b></h1>
 
@@ -31,3 +38,5 @@ condition: hostname = ubuntu
 <b>Tasks 5:</b>
 Create a group in inventory file, called “dev” add centos under dev group write a playbook that pings the CentOS servers, only if dev group is defined in inventory.
 
+<b>Tasks 6:</b>
+Write a playbook that copies file from remote server Ubunutu to localhost uder /root
