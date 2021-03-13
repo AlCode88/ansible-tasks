@@ -23,3 +23,7 @@ Note: We are going to copy the file from our local mac machine- <b> scp /tmp/tes
 
 <b>Tasks 3:</b>
 write a playbook change the permission on /tmp/testfile in localhost to read/write for everyone condition: server OS is CentOS
+
+<b>Tasks 4:</b>
+To run on remote server (Ubuntu), and change the file permission on /tmp/testfile
+condition: hostname = ubuntu

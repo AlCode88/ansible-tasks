@@ -8,7 +8,7 @@
       
       - name: create a file with content testfile.txt on centos
         when:
-         - ansible_facts ['distribution'] == "CentOS" 
+         - ansible_facts ['distribution'] == "Ubuntu" 
         file:
           path: /tmp/testfile.txt
           state: touch
