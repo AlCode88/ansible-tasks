@@ -8,4 +8,4 @@ there is a defult varibales that ansible stores in the memory. For example "grou
 <h1><b>Session Tasks</b></h1>
 
 <b>Tasks 1:</b>
-Define a yaml format inventory. Create a group called "prod" in your inventory file.
+Define a yaml format inventory. Create a group called "prod" in your inventory file. Write a playbook that pings servers, only if "prod" group is defined in inventory.yaml
