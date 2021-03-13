@@ -4,8 +4,19 @@
 
 there is a defult varibales that ansible stores in the memory. For example "group_name" 
 
+<u>ITTERATIVE APPROACH :</u> small chuncks of code but run often and this method comes from agile method.
+
+<u>ITERATION :</u> is the timeframe three iterations and some companies define the itteration as a "sprint" which is usually two weeks.
+
+<u>WATER FALL APPROACH:</u> large chuncks of codes run not often once in a while.
+
 
 <h1><b>Session Tasks</b></h1>
 
 <b>Tasks 1:</b>
 Define a yaml format inventory. Create a group called "prod" in your inventory file. Write a playbook that pings servers, only if "prod" group is defined in inventory.yaml
+
+<b>Tasks 2:</b>
+Write the playbook that copies /tmp/tesfile from localhost to Ubuntu only serever /tmp defined in inventory file. If it doesnt exist create the file.
+
+Note: We are going to copy the file from our local mac machine- <b> scp /tmp/testfile root@ ip of the server :/tmp </b>. 
