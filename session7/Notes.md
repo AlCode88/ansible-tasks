@@ -27,3 +27,7 @@ write a playbook change the permission on /tmp/testfile in localhost to read/wri
 <b>Tasks 4:</b>
 To run on remote server (Ubuntu), and change the file permission on /tmp/testfile
 condition: hostname = ubuntu
+
+<b>Tasks 5:</b>
+Create a group in inventory file, called “dev” add centos under dev group write a playbook that pings the CentOS servers, only if dev group is defined in inventory.
+

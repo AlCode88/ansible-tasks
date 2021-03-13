@@ -8,3 +8,7 @@ all:
           ansible_host: 161.35.106.151
         ubuntu:
           ansible_host: 167.99.10.37
+    dev:
+      hosts:
+        centos:
+          ansible_host: 161.35.106.151
