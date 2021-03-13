@@ -20,3 +20,6 @@ Define a yaml format inventory. Create a group called "prod" in your inventory f
 Write the playbook that copies /tmp/tesfile from localhost to Ubuntu only serever /tmp defined in inventory file. If it doesnt exist create the file.
 
 Note: We are going to copy the file from our local mac machine- <b> scp /tmp/testfile root@ ip of the server :/tmp </b>. 
+
+<b>Tasks 3:</b>
+write a playbook change the permission on /tmp/testfile in localhost to read/write for everyone condition: server OS is CentOS
